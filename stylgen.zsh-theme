@@ -24,6 +24,7 @@
 
 WHITE='\033[1;30m'
 YELLOW='\033[0;33m'
+RED='\033[0;31m'
 echo -e "${WHITE}                 ______
                 /     /\\
                /     /##\\
@@ -50,6 +51,8 @@ echo -e "${WHITE}                 ______
 
 VIRTUAL_ENV_DISABLE_PROMPT=true
 
+alias bnode='babel-node --presets es2016'
+
 # Define order and content of prompt
 if [ ! -n "${STYLGEN_PROMPT_ORDER+1}" ]; then
   STYLGEN_PROMPT_ORDER=(
@@ -61,7 +64,7 @@ if [ ! -n "${STYLGEN_PROMPT_ORDER+1}" ]; then
     perl
     ruby
     virtualenv
-    nvm
+    NVM
     aws
     go
     elixir
@@ -73,7 +76,7 @@ fi
 
 # PROMPT
 if [ ! -n "${STYLGEN_PROMPT_CHAR+1}" ]; then
-  STYLGEN_PROMPT_CHAR="🔥 "
+  STYLGEN_PROMPT_CHAR="${YELLOW}➤ "
 fi
 if [ ! -n "${STYLGEN_PROMPT_ROOT+1}" ]; then
   STYLGEN_PROMPT_ROOT=true
@@ -543,18 +546,18 @@ prompt_virtualenv() {
 }
 
 # NVM: Node version manager
-prompt_nvm() {
-  local nvm_prompt
-  if type nvm >/dev/null 2>&1; then
-    nvm_prompt=$(nvm current 2>/dev/null)
-    [[ "${nvm_prompt}x" == "x" ]] && return
+prompt_NVM() {
+  local NVM_prompt
+  if type NVM >/dev/null 2>&1; then
+    NVM_prompt=$(NVM current 2>/dev/null)
+    [[ "${NVM_prompt}x" == "x" ]] && return
   elif type node >/dev/null 2>&1; then
-    nvm_prompt="$(node --version)"
+    NVM_prompt="$(node --version)"
   else
     return
   fi
-  nvm_prompt=${nvm_prompt}
-  prompt_segment $STYLGEN_NVM_BG $STYLGEN_NVM_FG $STYLGEN_NVM_PREFIX$nvm_prompt
+  NVM_prompt=${NVM_prompt}
+  prompt_segment $STYLGEN_NVM_BG $STYLGEN_NVM_FG $STYLGEN_NVM_PREFIX$NVM_prompt
 }
 
 #AWS Profile
