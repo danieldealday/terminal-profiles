@@ -1,0 +1,95 @@
+{
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "sync.gist": "",
+    "sync.lastUpload": "",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.version": 262,
+    "sync.showSummary": true,
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.welcome.enabled": true,
+    "window.zoomLevel": 2,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "extensions.ignoreRecommendations": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": false,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "none",
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "#d682f0",
+            "White",
+            "#7dc832",
+        ],
+        "Red"
+    ],
+    "bracketPairColorizer.colorMode": "Independent",
+    "bracketPairColorizer.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 3px",
+        "borderColor : {color}; opacity: 0.5",
+        "backgroundColor: {color}"
+    ],
+    "bracketPairColorizer.scopeLineCSS": [
+        "borderStyle : solid",
+        "borderWidth : 3px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "bracketPairColorizer.rulerPosition": "Full",
+    "bracketPairColorizer.scopeLineRelativePosition": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.showBracketsInRuler": true,
+    "bracketPairColorizer.showHorizontalScopeLine": true,
+    "bracketPairColorizer.showVerticalScopeLine": true,
+    "bracketPairColorizer.independentPairColors": [
+        [
+            "()",
+            [
+                "White",
+                "#6496c8",
+                "Grey",
+            ],
+            "Red"
+        ],
+        [
+            "[]",
+            [
+                "White",
+                "Grey",
+                "#6496c8",
+            ],
+            "Red"
+        ],
+        [
+            "{}",
+            [
+                "White",
+                "#6496c8",
+                "Grey",
+            ],
+            "Red"
+        ]
+    ],
+    "materialTheme.fixIconsRunning": false,
+    "workbench.statusBar.feedback.visible": false,
+    "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}",
+    "autoimport.autoComplete": true,
+    "typescript.autoImportSuggestions.enabled": true,
+    "autoimport.spaceBetweenBraces": true,
+}
