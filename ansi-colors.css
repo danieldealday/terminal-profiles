@@ -1,0 +1,74 @@
+.normal {
+  /* black */
+  color: #4b4b4b;
+  /* red */
+  color: #963232;
+  /* green */
+  color: #4b9600;
+  /* yellow */
+  color: #e1e100;
+  /* blue */
+  color: #006496;
+  /* magenta */
+  color: #c578dd;
+  /* cyan */
+  color: #64c8c8;
+  /* white */
+  color: #e1e1e1;
+}
+
+.bright {
+  /* black */
+  color: #646464;
+  /* red */
+  color: #c86464;
+  /* green */
+  color: #7dc832;
+  /* yellow */
+  color: #fffc96;
+  /* blue */
+  color: #6496c8;
+  /* magenta */
+  color: #d682f0;
+  /* cyan */
+  color: #96e1e1;
+  /* white */
+  color: #ffffff;
+}
+
+.basicColors {
+  /* foreground */
+  color: #ffffff
+  /* background */
+  color: #000000
+  /* bold */
+  color: #e1e100
+  /* links */
+  color: #006496
+  /* selection */
+  color: #ffffff
+  /* selected text */
+  color: #000000
+  /* badge */
+  color: #ff2600
+}
+
+.cursorColors {
+  /* cursor */
+  color: #e1ff00
+  /* cursorTest */
+  color: #ffffff
+}
+
+.vscodeWorkbench {
+  /* blue hilight, blue badge */
+  color: #007acc;
+  /* active file explore icon */
+  color: #ffffff;
+  /* inactive file explore icon */
+  color: #adadad;
+  /* active window, active tab, editor background */
+  color: #1e1e1e;
+  /* file menu body */
+  color: #252525;
+}
