@@ -1,6 +1,5 @@
 code --install-extension aaron-bond.better-comments
 code --install-extension anseki.vscode-color
-code --install-extension idleberg.badges
 code --install-extension bierner.color-info
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
@@ -19,6 +18,7 @@ code --install-extension formulahendry.auto-rename-tag
 code --install-extension GrapeCity.gc-excelviewer
 code --install-extension HookyQR.beautify
 code --install-extension humao.rest-client
+code --install-extension idleberg.badges
 code --install-extension jakebathman.mysql-syntax
 code --install-extension joshpeng.sublime-babel-vscode
 code --install-extension mrmlnc.vscode-autoprefixer
@@ -27,6 +27,7 @@ code --install-extension ms-python.python
 code --install-extension ms-vscode.csharp
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension njpwerner.autodocstring
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
 code --install-extension PeterJausovec.vscode-docker
